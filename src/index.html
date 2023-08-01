@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body >
+    <nav class="container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <img src="/image/logo-light.png" class="w-60" alt="logo" />
+        </div>
+        <div class="hidden md:flex space-x-6 items-center">
+          <a href="#" class="text-slate-500 hover:text-orange-500">Portfolio</a>
+          <a href="#" class="text-slate-500 hover:text-orange-500">About</a>
+          <a href="#" class="text-slate-500 hover:text-orange-500">Contact</a>
+          <a href="#" class="text-slate-500 hover:text-orange-500">Social</a>
+          <a
+            class="py-2 px-6 animate-pulse bg-orange-500 rounded-full text-white hover:bg-slate-900"
+            >Call Me</a
+          >
+        </div>
+        <button id="mobile-btn" class="md:hidden">
+          <i class="ri-menu-line text-2xl"></i>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div id="mobile-menu" class="absolute flex flex-col hidden items-center space-y-4 drop-shadow-lg border border-gray-300 font-bold bg-gray-50 py-8 left-6 right-6">
+          <a href="#" >Portfolio</a>
+          <a href="#" >About</a>
+          <a href="#" >Contact</a>
+          <a href="#" >Social</a>
+          <a
+            class="py-2 px-6 bg-orange-500 rounded-full text-white hover:bg-slate-900"
+            >Call Me</a>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div
+        class="container mx-auto px-6 flex-col-reverse flex md:flex-row space-x-6"
+      >
+        <div
+          class="md:w-1/2 flex flex-col justify-center text-slate-900 space-y-6 space-x-5 py-6 text-center md:text-left"
+        >
+          <h1 class="text-3xl md:text-5xl font-bold">
+            Rapidly build modern websites without ever leaving your HTML.
+          </h1>
+          <p class="text-slate-500">
+            A utility-first CSS framework packed with classes like flex, pt-4,
+            text-center and rotate-90 that can be composed to build any design,
+            directly in your markup.
+          </p>
+          <a
+            class="py-2 px-6 animate-pulse  self-center md:self-start bg-orange-500 rounded-full text-white hover:bg-slate-900"
+            >Call Me</a
+          >
+        </div>
+        <div class="md:w-1/2">
+          <img src="/image/unDur2.png" alt="unDero" />
+        </div>
+      </div>
+    </section>
+    <section id="author">
+      <div class="container mx-auto px-5 my-32 text-center">
+        <h2 class="font-bold text-5xl">Move even faster with Thailwind UI</h2>
+        <p class="mt-8 max-w-5xl mx-auto">
+          I’ve written a few thousand words on why traditional “semantic class
+          names” are the reason CSS is hard to maintain, but the truth is you’re
+          never going to believe me until you actually try it. If you can
+          suppress the urge to retch long enough to give it a chance, I really
+          think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+        <div
+          class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+        >
+          <div
+            class="bg-slate-200 shadow-xl rounded-lg ring ring-gray-300 hover:bg-slate-100 hover:ring-slate-100 md:w-1/3"
+          >
+            <img
+              src="/image/adam.26d0119c.jpg"
+              class="rounded-full -mt-8 ml-20"
+              alt="Not Funod"
+            />
+            <p class="font-bold text-2xl pb-3">Adam Sandler</p>
+            <h1 class="text-slate-500 px-3 pb-3">
+              The way I wrote it changed frequently. It’s not a coincidence
+              Tailwind was released the same year. It might look wrong, but
+              spend time with it and you’ll realize semantic CSS was a 20 year
+              mistake.
+            </h1>
+          </div>
+          <div
+            class="bg-slate-200 shadow-xl text-center rounded-lg ring ring-gray-300 hover:bg-slate-100 hover:ring-slate-100 md:w-1/3"
+          >
+            <img
+              src="/image/adam.26d0119c.jpg"
+              class="rounded-full -mt-8 ml-20 animate-bounce"
+              alt="Not Funod"
+            />
+            <p class="font-bold text-2xl pb-3">Madeline Bauer</p>
+            <h1 class="text-slate-500 px-3 pb-3">
+              I have no design skills and with Tailwind I can actually make good
+              looking websites with ease and it's everything I ever wanted in a
+              CSS framework.
+            </h1>
+          </div>
+          <div
+            class="bg-slate-200 shadow-xl rounded-lg ring ring-gray-300 hover:bg-slate-100 hover:ring-slate-100 md:w-1/3"
+          >
+            <img
+              src="/image/adam.26d0119c.jpg"
+              class="rounded-full -mt-8 ml-20"
+              alt="Not Funod"
+            />
+            <p class="font-bold text-2xl pb-3">Marcel Khalifa</p>
+            <h1 class="text-slate-500 px-3 pb-3">
+              I started using @tailwindcss. I instantly fell in love with their
+              responsive modifiers, thorough documentation, and how easy it was
+              customizing color palettes.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="action" class="bg-orange-500">
+        <div class="container mx-auto px-5 py-6" >
+          <div class="flex justify-between items-center">
+            <p class="text-white  font-bold">Move even faster with Thailwind UI.</p>
+            <a class="py-2 px-1 text-sm rounded-full text-orange-400 bg-slate-50 hover:bg-slate-800">Start Home</a>
+          </div>
+      </div>
+    </section>
+    <footer class="bg-slate-900">
+      <div
+        class="container mx-auto py-10 px-5 flex flex-col-reverse justify-between text-white space-y-8 md:space-y-0  md:flex-row"
+      >
+        <div
+          class="flex flex-col items-center justify-between space-y-8 md:space-y-2 md:items-start"
+        >
+        <div class="my-6 text-center md:mt-0">
+          Copyright &copy;2023 ,All Right Resversd 
+        </div>
+          <div>
+            <img src="/image/logo-dark.png" alt="logo" class="w-40" />
+          </div>
+          <div class="flex space-x-4">
+            <div href="#"><i class="ri-facebook-box-fill text-3xl"></i></div>
+            <div href="#"><i class="ri-instagram-fill text-3xl"></i></div>
+            <div href="#"><i class="ri-messenger-fill text-3xl"></i></div>
+            <div href="#"><i class="ri-twitter-fill text-3xl"></i></div>
+            <div href="#"><i class="ri-youtube-fill text-3xl"></i></div>
+          </div>
+        </div>
+        <div class="flex justify-around space-x-32">
+          <diV class="flex flex-col space-y-2">
+            <a href="#" class="hover:text-slate-300">Home</a>
+            <a href="#" class="hover:text-slate-300">About</a>
+            <a href="#" class="hover:text-slate-300">Contact</a>
+          </diV>
+          <diV class="flex flex-col space-y-2">
+            <a href="#" class="hover:text-slate-300">Imprint</a>
+            <a href="#" class="hover:text-slate-300">Priveacy</a>
+            <a href="#" class="hover:text-slate-300">Credits</a>
+          </diV>
+        </div>
+        <div class="flex flex-col justify-between ">
+          <form action="#" class="">
+            <div class="flex space-x-3">
+              <input type="text" placeholder="Subscribr to Neweletter" class="flex-1 text-slate-950 py-2 px-6 rounded-full">
+              <button class="bg-orange-500 animate-pulse rounded-full py-2 px-4 hover:bg-slate-600" >Go</button>
+            </div>
+          </form>
+          <div class="hidden md:block">Copyright &copy;2023 ,All Right Resversd 
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/src/menu.js"></script>
+    </body>
+</html>
